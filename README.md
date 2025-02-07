@@ -1,15 +1,8 @@
 # String Operations Utility
 
-This program performs various string operations based on user commands, including capitalization, reversal, length calculation, and palindrome checking.
+This C project helps you manipulate strings with commands like capitalization, reversal, length calculation, and palindrome checking. The way it works is by taking user input, performing the selected operation, and displaying the result. You can enter commands like `cap`, which converts all letters to uppercase, `rev`, which reverses the order of characters in the string, `len`, which calculates how long the string is, or `pal`, which checks if you can read it the same way forwards and backwards (for example: racecar spelled backwards), followed by a sentence. If you're done, just type `exit program`. I created this to quickly handle common string operations without needing to rewrite them each time, and hope it can help you out as well.
 
-- **String Capitalization**: Converts all characters to uppercase.
-- **String Reversal**: Reverses the order of characters in the string.
-- **Length Calculation**: Computes and displays the length of the string.
-- **Palindrome Check**: Determines if the string reads the same forward and backward.
-- **Interactive Command System**: Users enter a command (`cap`, `rev`, `len`, `pal`) followed by a sentence.
-- **Exit Command**: Users can type `exit program` to terminate the program.
-
-## Example Usage
+## Example Output
 ```
 Enter 'rev', 'cap', 'len', or 'pal' followed by a sentence (or 'exit program' to quit): cap hello world
 Capitalized string: HELLO WORLD
